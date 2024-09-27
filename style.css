@@ -146,13 +146,13 @@ nav ul li a:hover::after{
     animation: slide 12s infinite;
 }
 
-/* Keyframes for sliding effect */
+/* Keyframes for slide effect */
 @keyframes slide {
     0% { transform: translateX(0); }
-    25% { transform: translateX(0%); }
+    25% { transform: translateX(0); }
     50% { transform: translateX(0); }
     75% { transform: translateX(0); }
-    100% { transform: translateX(0%); }
+    100% { transform: translateX(0); }
 }
 
 .carousel img {
